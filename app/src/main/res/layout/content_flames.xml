@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aravind.flames.Flames">
+
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name2"
+        android:layout_marginTop="93dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/your_name1"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/partner_s_name1"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_red_light"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="53dp"
+        android:fontFamily="casual"
+        android:text="@string/compatibility1"
+        android:textAlignment="inherit"
+        android:textColor="@color/colorAccent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/name2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:fontFamily="cursive"
+        android:onClick="onButtonClick"
+        android:text="@string/submit1"
+        android:textColor="@color/colorAccent"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

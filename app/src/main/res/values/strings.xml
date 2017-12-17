@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Flames</string>
+    <string name="action_settings">Settings</string>
+    <string name="compatibility">Compatibility</string>
+    <string name="submit">submit</string>
+    <string name="partner_s_name">partner_s_name</string>
+    <string name="your_name">your_name</string>
+    <string name="your_name1">Your_Name</string>
+    <string name="partner_s_name1">Partner\'s_Name</string>
+    <string name="compatibility1">Compatibility</string>
+    <string name="submit1">Submit</string>
+    <string name="title_activity_login">Login</string>
+    <string name="flames">FLAMES</string>
+    <string name="compatibility_calculator">Compatibility Calculator</string>
+
+
+    <string name="todo">TODO</string>
+
+</resources>
